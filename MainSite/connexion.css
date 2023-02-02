@@ -1,0 +1,88 @@
+#navbox {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mainlogo {
+	position: relative;
+	bottom: 100px;
+}
+
+
+
+header img {
+	width : 100%;
+height : auto;
+max-width : 150px;
+}
+
+
+
+header {
+	border: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid;
+}
+
+#Connexionsection {
+    text-align: center;
+}
+
+
+#footer {
+	border-top: solid;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#mentionslégales {
+	display: inline-block;
+	border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+	
+}
+
+#Contact {
+	display: inline-block;
+	border-right: solid;
+    border-width: 1px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 391px) {
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+
+header {
+	text-align: center;
+}
+
+
+#logo {
+	text-align: center;
+}
+}
+
+#navbox {
+	display: flex;
+	flex-direction: column;
+    align-items: stretch;
+    
+}
+
+#mainlogo {
+	position: unset;
+}

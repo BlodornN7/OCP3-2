@@ -1,0 +1,146 @@
+#navbox {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mainlogo {
+	position: relative;
+	bottom: 100px;
+}
+
+
+
+header img {
+	width : 100%;
+height : auto;
+max-width : 150px;
+}
+
+#commentform {
+	text-align: center;
+}
+.CommentSection {
+	border: solid;
+    margin: 10px;
+	border-radius: 10px;
+}
+
+
+header {
+	border: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid;
+}
+
+.logoacteurdiv {
+	text-align: center;
+}
+
+#logoacteur {
+	width: 100%;
+  height: auto;
+max-width: 500px
+}
+
+#sectionacteur1 {
+	border: solid;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+
+#sectionacteur1 p {
+word-break: break-all;	
+}
+
+#commentaire {
+	border: solid;
+	margin-top: 20px;
+	margin-left: 35px ;
+
+}
+
+#commentaire h3 {
+	position: relative;
+	left: 50px;
+	bottom: 10px;
+}
+
+#Newcomment {
+	position: relative;
+	left: 1720px;
+	bottom: 50px;
+	border-radius: 5px;
+}
+
+#LikeDislike {
+	position: relative;
+	left: 1725px;
+	bottom: 50px;
+	border-radius: 5px;
+}
+
+
+#footer {
+	border-top: solid;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#mentionslégales {
+	display: inline-block;
+	border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+	
+}
+
+#Contact {
+	display: inline-block;
+	border-right: solid;
+    border-width: 1px;
+    padding-right: 5px;
+}
+
+
+
+@media screen and (max-width: 391px) {
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+
+header {
+	text-align: center;
+}
+
+#navbox {
+	display: inline-block;
+	text-align: center;
+}
+
+#logo {
+	text-align: center;
+}
+
+#navbox {
+	display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#mainlogo {
+	position: unset;
+}
+
+
+}

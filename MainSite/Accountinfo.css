@@ -1,0 +1,207 @@
+
+
+#navbox {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mainlogo {
+	position: relative;
+	bottom: 100px;
+}
+
+
+
+
+
+header img {
+	width : 100%;
+height : auto;
+max-width : 150px;
+}
+
+
+
+header {
+	border: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid;
+}
+
+.h3link {
+
+	text-align: center;
+	border: solid;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+
+	
+}
+h1, h2, main p {
+	text-align: center;
+}
+
+
+.frame {
+	border: solid;
+    margin: 10px;
+    word-wrap: break-word;
+    
+}
+
+div {
+text-align: center;
+	
+	
+
+}
+
+
+.readmore {
+	text-align: center;
+    border: solid;
+    border-radius: 8px;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+	
+}
+
+ h3 {
+	word-break: break-all;
+	position: relative;
+  
+  padding: 10px;
+  left: 100px;
+  bottom: 80px;
+	
+
+
+}
+
+.frame p {
+  word-break: break-all;
+  position: relative;
+  bottom: 80px;
+  margin-left: 110px;
+  bottom: 100px;
+
+}
+
+.border {
+	display: flex;
+    justify-content: end;
+}
+
+.frame img {
+	width: 100px;
+	height: 50px;
+
+	
+}
+
+.image {
+	text-align: left;
+}
+
+#illustration {
+width: 100%;
+  height: auto;
+max-width: 200px;
+}
+
+#illustrationbox {
+	text-align: center;
+}
+
+h2 {
+	border: solid;
+border-left: none;
+border-right: none;
+border-top: solid;
+border-bottom: none;
+}
+
+#footer {
+	border-top: solid;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#mentionslégales {
+	display: inline-block;
+	border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+	
+}
+
+#Contact {
+	display: inline-block;
+	border-right: solid;
+    border-width: 1px;
+    padding-right: 5px;
+}
+
+
+
+@media screen and (max-width: 391px) {
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+
+#navbox {
+	display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#mainlogo {
+	position: unset;
+}
+
+header {
+	text-align: center;
+}
+
+
+
+#logo {
+	text-align: center;
+}
+
+h3 {
+	word-break: break-all;
+  padding: 10px;
+  position: unset;
+  
+}
+
+.frame p {
+  word-break: break-all;
+  text-align: left;
+  position: unset;
+  margin-left: 0px;
+}
+
+.frame img {
+	width: 100%;
+	height: unset;
+}}
+
+.phpinfo {
+	text-align: center;
+}
